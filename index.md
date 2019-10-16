@@ -1,37 +1,52 @@
-## Welcome to GitHub Pages
+## Inicio
+Bienvenidos<br>
 
-You can use the [editor on GitHub](https://github.com/RiquelmerGaxiola/riquelmergaxiola.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+Vianei es una compañía que se dedica a la elaboración de productos auxiliares para ayudar en la rehabilitación motriz de los brazos.<br>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+¿Cuál es nuestro objetivo?<br>
+	
+Vianei intenta lograr traer un método de rehabilitación motriz alternativo, de menor coste, a personas que sufren de discapacidades motrices.
 
-### Markdown
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+	
 
-```markdown
-Syntax highlighted code block
+## Compañía
+Información de la companía
 
-# Header 1
-## Header 2
-### Header 3
+Somos una empresa emergente dedicada a la elaboración de equipamiento médico para la rehabilitación motriz.<br>
+Buscamos ofrecer un servicio de calidad a nuestros clientes para que tengan una experiencia de rehabilitacion única y fácil de usar<br>
 
-- Bulleted
-- List
+## Metodologia
 
-1. Numbered
-2. List
+->Se realiza una reunión inicial para acordar los términos del pedido, así como para una demostración de nuestros modelos y realizar tanto la elicitación como la validación de los requerimientos de su página web.<br>
+->Capacitación del personal del cliente en la correcta utilización de nuestro producto.<br>
+->Entrega de las unidades solicitadas, y revisión del progreso de la página web. Sesión final de capacitación en el uso de nuestro producto.
+->Entrega de la página web.<br>
 
-**Bold** and _Italic_ and `Code` text
+## Producto
 
-[Link](url) and ![Image](src)
-```
+Con nuestro producto buscamos la rehabilitación muscular mediante la realización de ciertos movimientos específicos que ayudan al fortalecimiento de los músculos del antebrazo y la muñeca.<br>
+Nuestra herramienta ayudará a personas con alguna discapacidad motriz en la zona del antebrazo y la muñeca, o a personas que quieran fortalecer sus músculos de manera interactiva.<br>
+Al realizar una serie de movimientos específicos, se fortalecerán las estructuras musculares de la persona al igual que se mejora la coordinación y memoria muscular.<br>
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+¿Cuales son las ventajas de Vianei?<br>
+	Es una alternativa de bajo costo respecto a otros equipos<br>
+	Ofrece una gran reutilización y ofrece una experiencia divertida para el usuario<br>
 
-### Jekyll Themes
+¿Cuales son las desventajas de Vianei?<br>
+	Hemos observado que la principal desventaja de nuestro producto no otorga un feedback suave al usuario lo que causa incomodidad al momento de usar nuestro producto.<br>
+	Por lo tanto estamos en constante mejora para tener una mejor relación con los clientes basados en el ratio de aceptación de nuestro producto.<br>
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/RiquelmerGaxiola/riquelmergaxiola.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+## ¿Quiénes somos?
 
-### Support or Contact
+Somos un grupo de asociados del área de Sistemas Computacionales del Tecnológico de Monterrey,<br>
+contamos con la colaboración de Kevin Contreras, Riquelmer Gaxiola & Jaime Aguilar,<br>
+hijo del Dr. Agustín J Aguilar, experto en el área cuya consulta fue invaluable para la realización de nuestro proyecto.<br> 
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+## Contacto
+
+Para mas información comuníquese a los siguientes teléfonos<br>
+674-xxx-xx-xx.<br>
+674-xxx-xx-xx.<br>
+674-xxx-xx-xx.<br> 
+O visite nuestras oficinas en Calle Benito Juarez #129, colonia Nueva Esperanza. Zapopan, Jalisco. <br>
