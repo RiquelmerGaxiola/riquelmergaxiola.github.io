@@ -21,6 +21,9 @@ body{
 </head>
 
 <body>
+	<div class="parallax-container">
+		<div class="parallax"><img src="images/Proto1.jpeg"></div>
+	</div>
 	<nav class="nav-extended" id="navs">
     <div class="nav-wrapper">
 			  <img src="images/logo.jpg" alt="" class="circle responsive-img" style="width:100px;height:75px;">
@@ -28,7 +31,7 @@ body{
       <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
       <ul id="nav-mobile" class="right hide-on-med-and-down">
       	<li><a href="index.html"><font color="blue">Inicio</font></a></li>
-      	<li><a href="Company.html"><font color="blue">Company</font><</a></li>
+      	<li><a href="Company.html"><font color="blue">Compañia</font><</a></li>
         <li><a href="Producto.html"><font color="blue">Producto</font><</a></li>
         <li><a href="QuienesSomos.html"><font color="blue">¿Quienes somos?</font><</a></li>
         <li><a href="Contacto.html"><font color="blue">Contacto</font><</a></li>
@@ -65,5 +68,11 @@ body{
 
 
 </body>
-
+<script src="js/materialize.min.js"></script>
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+	var elems = document.querySelectorAll('.parallax');
+	var instances = M.Parallax.init(elems);
+});
+</script>
 </html>
