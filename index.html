@@ -49,10 +49,7 @@ body{
     			<!-- Compiled and minified JavaScript -->
     			<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
 
-					<ul class="right">
-					    <li><a class="dropdown-trigger" data-target="dropdown"><font color="blue"><h4>Inicio</h4></font><i class="material-icons right">arrow_drop_down</i></a>
-					    </li>
-					</ul>
+
 
 					<ul id="dropdown" class="dropdown-content">
 						<li><a href="index.html"><font color="blue">Inicio</font></a></li>
@@ -62,6 +59,10 @@ body{
 						<li><a href="Feedback.html"><font color="blue">Feedback</font></a></li>
 					</ul>
 
+					<ul class="right">
+							<li><a class="dropdown-trigger" data-target="dropdown"><font color="blue"><h4>Inicio</h4></font><i class="material-icons right">arrow_drop_down</i></a>
+							</li>
+					</ul>
 
 </div>
 </nav>
@@ -87,7 +88,7 @@ document.addEventListener('DOMContentLoaded', function() {
 <script>
 $(document).ready(function () {
 $(".dropdown-trigger").dropdown();
-}
+});
 </script>
 
 </html>
