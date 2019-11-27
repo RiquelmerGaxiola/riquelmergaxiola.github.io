@@ -10,61 +10,113 @@ body{
 <html>
 
 <head>
-	<title>Vianei - Informacion del producto.</title>
+	<title>Vianei - Inicio</title>
 	<meta charset="utf-8">
 	<!--Import Google Icon Font-->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <!--Import materialize.css-->
+    <!--Recuerda que modificamos el tamaño del Parallax en .min-->
     <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
-		<script>var i=document.createElement('iframe');i.style.width=0;i.style.height=0;i.style.display='none';i.src='javascript:false',i.botId='b465c26a-f6b5-4825-aff8-dd49c4ee0711',i.botTitle='Vianei',i.baseUrl='https://bots.rundexter.com';var d=document.getElementsByTagName('script');d=d[d.length-1],d.parentNode.insertBefore(i,d);var o=i.contentWindow.document;o.open()._l=function(){var e=this.createElement('script');e.src='https://rundexter.com/webwidget',this.body.appendChild(e)},o.write('<body onload="document._l();">'),o.close();</script>
+
+		<script>var i=document.createElement('iframe');
+		i.style.width=0;
+		i.style.height=0;
+		i.style.display='none';
+		i.src='javascript:false',
+		i.botId='b465c26a-f6b5-4825-aff8-dd49c4ee0711',i.botTitle='Vianei',i.baseUrl='https://bots.rundexter.com';
+		var d=document.getElementsByTagName('script');
+		d=d[d.length-1],d.parentNode.insertBefore(i,d);
+		var o=i.contentWindow.document;o.open()._l=function(){var e=this.createElement('script');
+		e.src='https://rundexter.com/webwidget',this.body.appendChild(e)},o.write('<body onload="document._l();">'),o.close();
+		</script>
 </head>
 
 <body>
-	<div class="parallax-container">
-		<div class="parallax"><img src="images/Proto1.jpeg"></div>
-	</div>
-	<nav class="nav-extended" id="navs">
-    <div class="nav-wrapper">
-			  <img src="images/logo.jpg" alt="" class="circle responsive-img" style="width:100px;height:75px;">
-      <!--<a href="images/logo.jpg" class="brand-logo">Vianei</a>-->
-      <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-			<h3 align="center" class="brand-logo center"><font color="black">Vianei ©</font></h1><
-      <ul id="nav-mobile" class="right hide-on-med-and-down">
-      	<li><a href="index.html"><font color="blue">Inicio</font></a></li>
-      	<li><a href="Company.html"><font color="blue">Compañia</font><</a></li>
-        <li><a href="Producto.html"><font color="blue">Producto</font><</a></li>
-        <li><a href="QuienesSomos.html"><font color="blue">¿Quienes somos?</font><</a></li>
-        <li><a href="Contacto.html"><font color="blue">Contacto</font><</a></li>
-				<li><a href="Feedback.html"><font color="blue">Feedback</font><</a></li>
-      </ul>
+	<script src="js/materialize.min"></script>
+    <div class="parallax-container">
+      <div class="parallax"><img src="images/Proto1.jpeg"></div>
     </div>
-   </nav>
+
+		<nav class="nav-extended" id="navs">
+			<div class="nav-wrapper">
+				<img src="images/logo.jpg" alt="" class="circle responsive-img" style="width:100px;height:75px;">
+				<h3 class="brand-logo"><font color="black">Vianei ©</font></h1>
+					<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+					<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    			<!-- Compiled and minified CSS -->
+    			<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+    			<!-- Compiled and minified JavaScript -->
+    			<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+
+<ul id="dropdown" class="dropdown-content">
+	<li><a href="index.html"><font color="blue">Inicio</font></a></li>
+	<li><a href="Company.html"><font color="blue">Compañia</font></a></li>
+	<li><a href="Producto.html"><font color="blue">Producto</font></a></li>
+	<li><a href="Contacto.html"><font color="blue">Contacto</font></a></li>
+	<li><a href="Feedback.html"><font color="blue">Feedback</font></a></li>
+</ul>
+
+<ul class="right hide-on-med-and-down">
+    <li><a class="dropdown-trigger" data-target="dropdown"><font color="blue">Producto</font><i class="material-icons right">arrow_drop_down</i></a>
+    </li>
+</ul>
+</div>
+</nav>
+
 	<h3 style="text-align:center;">Vianei- Laberinto interactivo</h3>
 
 		<div id=”producto”>
 	<h4 style="text-align:center;">Producto</h5>
-	<p style="text-align:center;" class="flow-text">	Con nuestro producto buscamos la rehabilitación muscular mediante la realización de ciertos movimientos específicos que ayudan al fortalecimiento de los músculos del antebrazo y la muñeca.<br>
+	<p class="flow-text">	Con nuestro producto buscamos la rehabilitación muscular mediante la realización de ciertos movimientos específicos que ayudan al fortalecimiento de los músculos del antebrazo y la muñeca.<br>
 		Nuestra herramienta ayudará a personas con alguna discapacidad motriz en la zona del antebrazo y la muñeca, o a personas que quieran fortalecer sus músculos de manera interactiva.<br>
 		Al realizar una serie de movimientos específicos, se fortalecerán las estructuras musculares de la persona al igual que se mejora la coordinación y memoria muscular.
 </p>
 </div>
 
 <div id=”company”>
-		<h4 style="text-align:center;">¿Cuales son las ventajas de Vianei?</h5>
-		<p style="text-align:center;" class="flow-text">
-			Las ventajas de nuestro producto son:<br>
-			<ul style="text-align:center;" class="flow-text">
+		<h4>¿Cuales son las ventajas de Vianei?</h5>
+		<p class="flow-text">
+			<ul class="flow-text">
 				<li>Es una alternativa de bajo costo respecto a otros equipos</li>
 				<li>Ofrece una gran reutilización y ofrece una experiencia divertida para el usuario</li>
 			</ul>
 		</p>
-		<h4 style="text-align:center;">¿Cuales son las desventajas de Vianei?</h5>
-		<p style="text-align:center;" class="flow-text">
-			Hemos observado que la principal desventaja de nuestro producto no otorga un feedback suave al usuario lo que causa incomodidad al momento de usar nuestro producto.<br>
-			Por lo tanto estamos en constante mejora para tener una mejor relación con los clientes basados en el ratio de aceptación de nuestro producto.<br>
+		<h4>¿Cuales son las desventajas de Vianei?</h5>
+		<p class="flow-text">
+			Hemos observado que la principal desventaja de nuestro producto no otorga un feedback suave al usuario,<br>
+			lo que causa incomodidad al momento de usar nuestro producto.<br>
 		</p>
-
 	</div>
+
+	<hr>
+	<div id="info">
+		<h4 style="text-align:center;">Modelos</h5>
+      <div class="row">
+          <div class="col s5">
+      <img src="images/logo.jpg" alt="" style="width:400px;height:300px;">
+      <p style="text-align:left;" class="flow-text">
+        Modelo con Planca:<br>
+        Aparato que cuenta con un laberinto el cual funciona como una guía que lleva al usuario
+        a realizar ciertos movimientos enfocados en la muñeca que producen un refuerzo muscular
+        en el área en rehabilitación.
+      </p>
+          </div>
+          <div class="col s4">
+      <img src="images/ModeloSp.jpeg" alt="" style="width:225px;height:300px;">
+      <p style="text-align:left;" class="flow-text">
+        Modelo sin Palanca:<br>
+        Aparato que cuenta con un laberinto el cual el usuario debe mover en un espacio tridimensional,
+        ocasionando un esfuerzo en un gran área de sus brazos, reforzando los músculos de ésta.
+      </p>
+          </div>
+          <div class="col s3">
+      <img src="images/AppDigi.jpeg" alt="" style="width:225px;height:300px;">
+      <p style="text-align:left;" class="flow-text">
+        App Digital:<br>
+        Aplicación que guía al usuario en su día a día dándole costumbres destinadas a una rehabilitación
+        a largo plazo del área a rehabilitar.
+      </p>
+          </div>
+
 
 
 
@@ -75,5 +127,10 @@ document.addEventListener('DOMContentLoaded', function() {
 	var elems = document.querySelectorAll('.parallax');
 	var instances = M.Parallax.init(elems);
 });
+</script>
+<script>
+$(document).ready(function () {
+$(".dropdown-trigger").dropdown();
+}
 </script>
 </html>

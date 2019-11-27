@@ -8149,6 +8149,9 @@ $jscomp.polyfill = function (e, r, p, m) {
 
   $(document).ready(function () {
     // Handle removal of static chips.
+
+    $(".dropdown-trigger").dropdown();
+
     $(document.body).on('click', '.chip .close', function () {
       var $chips = $(this).closest('.chips');
       if ($chips.length && $chips[0].M_Chips) {
