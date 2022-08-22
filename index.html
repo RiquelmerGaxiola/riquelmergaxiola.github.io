@@ -1,23 +1,97 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html class="no-js" lang="">
+
 <head>
-<title>Semestre i expectations</title>
+  <meta charset="utf-8">
+  <title></title>
+  <meta name="description" content="A Tutorial on WebAssembly!">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta property="og:title" content="WASM Tutorial">
+  <meta property="og:type" content="">
+  <meta property="og:url" content="">
+  <meta property="og:image" content="">
+
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <!-- Place favicon.ico in the root directory -->
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+
+  <meta name="theme-color" content="#fafafa">
+  
 </head>
-<body style="background-color: bisque;">
 
-<h1 style="color:red;">Semestre i expectations</h1>
+<body>
 
-<h3 style="text-align: center;">Jesús Riquelmer Gaxiola Higuera</h3>
-<p style="color:blue;">Del semestre i espero obtener experiencia significativa al trabajar en un proyecto en un ambiente profesional para una empresa real, a la vez que obtengo acceso a diversas herramientas gracias a la preparación obtenida de parte de mis profesores.</p>
+  <!-- Add your site or application content here -->
+  <h1>Welcome to my WASM Tutorial!</h1>
+  <p text>This is a simple tutorial on WebAssembly!</p>
 
-<h3 style="text-align: left;">Juan Pablo Velazco Velasquez</h3>
-<p style="color:green;">Semestre i lo veo como una oportunidad para poder aplicar muchas de las cosas aprendidas a lo largo de la carrera, asi tambien como un inicio para entrar a un ambito laborar y saber como es que realmente un proyecto para una empersa es que funciona, desde la planeacion, ejecucion y entrega al cliente.</p>
+  <h2>Requirements</h2>
+  <p>First of, you need at least a github account, and if you have Python in your device, it needs to be Python 3.6 or newer.
+  <br>This tutorial will focus on C, so make sure you can compile C on your device!
+  <br>Once that's out of the way, follow the next steps according to your Operating System.</p>
 
-<h3 style="text-align: center;">Oscar Roberto Castro Ruiz</h3>
-<p style="color:orange;">Este semestre representa para mí un parteaguas al permitirnos experimentar un ambiente de trabajo profesional y otro de aprendizaje, ambos a la par del desarrollo ciudadano y social, espero poder aprovechar de la mejor manera la oportunidad que nos brindan, sacarle el mayor de los provechos a todo el aprendizaje que los maestros tienen para ofrecer y finalizar con las herramientas necesarias para realizar mi trabajo de la mejor manera posible.</p>
+  <h3>Linux</h3>
+  <p>Make sure you have the latest Python3 version installed, as well as git.
+    <br>You alse may install Cmake, although it's not necessary.
+  </p>
 
-<h3 style="text-align: right;">Diego Cabrera Nieto</h3>
-<p style="color:black; text-shadow: 2px 2px 5px red">Espero del semestre i poder organizar mejor mis tiempos ya que como trabajo tiempo completo, espero esto me ayude para organizarme mejor y poder cumplir con los requerimientos tanto para la escuela como para el trabajo.</p>
+  <h3>MacOS</h3>
+  <p>Install the XCode Command Line Tools, which will allow to install git, if git is already install you may skip this step.
+    <br>Install Cmake.
+  </p>
 
+  <h3>Windows</h3>
+  <p>Make sure you have Python 3.6, or a newer release, installed.</p>
+
+  <h2>Getting the Emscripten SDK</h2>
+  <p>Emscripten is the tool we are going to use to generate our .wasm file from our C code.</p>
+  <p>You can check the official Emscripten downloading tutorial <a href="https://emscripten.org/docs/getting_started/downloads.html#installation-instructions-using-the-emsdk-recommended">here</a>, altough in this tutorial we'll cover al necessary steps.</p>
+  <p>You'll need to open your device's terminal, and once you find where you want to download Emscripten, you'll need to type
+    git clone https://github.com/emscripten-core/emsdk.git on your console.
+    <br>Once its done type "cd emsdk" and then "./emsdk install latest" to install Emscripten.
+    <br>Finally, you'll need to type "./emsdk activate latest" to activate Emscripten.
+  </p>
+
+  <h2>Using the Emscripten SDK</h2>
+  <p>
+    Once you activate Emscripten, you need to type "source ./emsdk_env.sh" to in the /emsdk directory to enable it in your terminal. (You need to repeat this everytime you wish to use Emscripten).
+  </p>
+  <h2>IMPORTANT!</h2>
+  <p>
+    <ol>
+      <li>On Windows, run "emsdk" instead of "./emsdk", and "emsdk_env.bat" instead of "source ./emsdk_env.sh".</li>
+      <li>On Windows, if you use the activate command, the step of emsdk_env.bat is optional. If you want to know more, see activate SDK version.</li>
+    </ol>
+  </p>
+
+  <p>Once that's done, all you need to do is, on your current terminal, navigate to the directory where you have your .c file you wish to turn into wasm, and type:
+    <br>"./emcc filename.c -o newname.html"
+    <br>This will not only generate the .wasm file containing your C code, but also generate a .html file running said wasm code.
+  </p>
+
+  <h2>You are Done!</h2>
+  <p>
+    You can now run your .html file in your browser, or use your .wasm file in other projects.
+  </p>
+  <p>
+    Have fun!
+  </p>
+
+  <script src="js/vendor/modernizr-3.11.2.min.js"></script>
+  <script src="js/plugins.js"></script>
+  <script src="js/main.js"></script>
+  
+
+  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+  <script>
+    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+    ga('create', 'UA-XXXXX-Y', 'auto'); ga('set', 'anonymizeIp', true); ga('set', 'transport', 'beacon'); ga('send', 'pageview')
+  </script>
+  <script src="https://www.google-analytics.com/analytics.js" async></script>
 </body>
+
 </html>
